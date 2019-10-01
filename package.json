@@ -9,7 +9,7 @@
     "lint": "eslint src"
   },
   "devDependencies": {
-    "mocha": "^6.2.1",
+    "mocha": "^6.2.1"
   },
   "dependencies": {
     "@kintone/kintone-js-sdk": "^0.6.2"
