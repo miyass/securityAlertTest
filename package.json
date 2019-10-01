@@ -1,0 +1,14 @@
+{
+  "name": "markdown-dev",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node scripts/npm-start.js",
+    "upload": "kintone-plugin-uploader dist/plugin.zip --watch --waiting-dialog-ms 3000",
+    "develop": "npm run build -- --watch",
+    "build": "kintone-plugin-packer --ppk private.ppk --out dist/plugin.zip src",
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "jquery-ui": ">=1.12.0"
+  }
+}
