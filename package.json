@@ -9,11 +9,13 @@
     "lint": "eslint src"
   },
   "devDependencies": {
+    "csv-parse": "4.4.6",
     "jquery-ui": ">=1.12.0",
     "lodash": "1.0.2",
+    "marked": "^0.7.0",
     "mocha": "^6.2.1",
     "url-loader": "1.1.2",
-    "marked": "0.6.2"
+    "fresh": "0.3.0"
   },
   "dependencies": {
     "@kintone/kintone-js-sdk": "^0.6.2"
