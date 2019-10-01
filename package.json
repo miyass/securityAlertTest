@@ -9,6 +9,7 @@
     "lint": "eslint src"
   },
   "devDependencies": {
-    "jquery-ui": ">=1.12.0"
+    "jquery-ui": ">=1.12.0",
+    "mocha": "6.0.2"
   }
 }
