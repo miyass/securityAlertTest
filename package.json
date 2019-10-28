@@ -9,6 +9,7 @@
     "lint": "eslint src"
   },
   "devDependencies": {
+    "lodash": "1.0.2",
     "mocha": "^6.2.1"
   },
   "dependencies": {
